@@ -1,0 +1,46 @@
+{
+  "authentication": {
+    "validCredentials": {
+      "username": "Admin",
+      "password": "admin123"
+    },
+    "invalidCredentials": {
+      "username": "test",
+      "password": "test123"
+    }
+  },
+  "users": {
+    "roles": ["Admin", "ESS"],
+    "statuses": ["Enabled", "Disabled"],
+    "testEmployee": {
+      "username": "Test123",
+      "password": "Test123@QA$",
+      "associatedEmployeeName": "Linda"
+    }
+  },
+  "employees": {
+    "newEmployee": {
+      "firstName": "Automation",
+      "lastName": "Engineer",
+      "employeeID": "123456789"
+    },
+    "editedEmployee": {
+      "firstName": "Python",
+      "lastName": "Developer"
+    },
+    "availableEmployees": ["Linda", "Odis"]
+  },
+  "jobs": {
+    "testJobTitle": "QA Automation Engineer"
+  },
+  "recruitment": {
+    "testVacancy": {
+      "name": "QA Automation Engineer",
+      "jobTitle": "QA Engineer",
+      "hiringManager": "sww test"
+    }
+  },
+  "social": {
+    "samplePost": "Hello World!"
+  }
+}

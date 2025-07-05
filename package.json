@@ -1,0 +1,23 @@
+{
+  "name": "orangehrm-tdd",
+  "version": "1.0.0",
+  "description": "Testy automatyczne dla OrangeHRM",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "open": "npx cypress open",
+    "headed": "npx cypress run --headed",
+    "chrome": "npx cypress run --headed --browser chrome",
+    "electron": "npx cypress run --headed --browser electron",
+    "edge": "npx cypress run --headed --browser edge",
+    "firefox": "npx cypress run --headed --browser firefox",
+    "dashboard": "npx cypress run --headed --browser electron --record --key 5e78727c-14eb-4bab-84a6-188535dd7b7b"
+  },
+  "keywords": [
+    "OrangeHRM"
+  ],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cypress": "^13.2.0"
+  }
+}
